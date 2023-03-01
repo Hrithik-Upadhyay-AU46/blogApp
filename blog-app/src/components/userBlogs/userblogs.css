@@ -1,0 +1,62 @@
+.parent{
+    width: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lightgray;
+    background: #343541;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 20px  black;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.btnSection{
+    visibility: hidden;
+    background-color: none;
+}
+.btnSection .edit{
+    background: none;
+    color: #4f8fdd;
+    font-weight: bold
+    ;
+    font-size: large;
+    border: none;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.btnSection .delete{
+    background: none;
+    color: #dd4f4f;
+    font-weight: bold
+    ;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+.parent:hover .btnSection{
+   visibility: visible;
+}
+.upperDetails{
+    display: flex;
+    align-items: center;
+}
+.avtar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #4f8fdd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.imgSection img{
+ width: 100%;
+}
+.imgSection{
+    margin-bottom: 1rem;
+}

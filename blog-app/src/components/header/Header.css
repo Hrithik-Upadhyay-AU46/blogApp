@@ -1,0 +1,52 @@
+header{
+    background-color: #202123;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    width: 100vw;
+    z-index: 1000;
+   
+}
+header .start{
+    padding: 1rem 1.5rem;
+    display: flex;
+}
+.start h1{
+    color: #fff;
+    margin-right: 2rem;
+}
+.start button{
+ margin-right: 1rem;
+ background: none;
+ border: none;
+ color: rgb(192, 192, 192);
+ border-bottom: 1px solid lightgray;
+ font-size: 1rem;
+ transition: 0.5 ease;
+ cursor: pointer;
+
+}
+.start button a:hover{
+    color: rgb(79, 143, 221);
+    
+}
+.start button a{
+    color: lightgray;
+    text-decoration: none;
+}
+.start button a.active{
+    color: rgb(79, 143, 221)
+}
+.end{
+    padding-right: 1rem;
+}
+.end button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: lightgray;
+    background:rgb(79, 143, 221) ;
+    cursor: pointer;
+}
